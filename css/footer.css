@@ -1,0 +1,41 @@
+.last {
+  background: #000;
+}
+
+.last-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.last-texto {
+  font-size: 1.5rem ;
+  line-height: 1.33;
+  color: #cccc;
+}
+
+.last-contato li {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.last-contato li a {
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .last-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .last-contato li {
+    font-size: 1.5rem;
+
+  }
+
+}
