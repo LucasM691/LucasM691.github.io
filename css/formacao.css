@@ -98,6 +98,14 @@ margin-bottom: 10px;
     padding: 60px 20px;
     gap: 40px;
   }
+  @media (max-width: 800px) {
+    .tipo-container {
+      grid-template-columns: 1fr;
+      padding: 60px 20px;
+      gap: 40px;
+    }
+    
+  
   .tipo .subtitulo {
     color: #ffff;
   }

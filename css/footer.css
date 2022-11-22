@@ -33,6 +33,8 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
+
   .last-contato li {
     font-size: 1.5rem;
 
